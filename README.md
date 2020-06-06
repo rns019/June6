@@ -9,7 +9,7 @@ rev
 3)To monitor system health<br />
 
 vmstat 1000 > vmstat1.data<br />
-filename= "/root/Desktop/Lab/vmstat.data"<br />
+filename= "/root/Desktop/fina/vmstat.data"<br />
 tail -f $filename |<br />
 while read $line do<br />
 if [ (cat vmstat1.data | grep "swap")>0 ]<br />
