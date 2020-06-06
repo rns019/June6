@@ -1,12 +1,12 @@
 # June 4 Lab Session 
-1) SL Command
-sudo apt install sl
-sl
+1) SL Command<br />
+sudo apt install sl<br />
+sl<br />
 
-2) Reverse a String using rev command
+2) Reverse a String using rev command<br />
 rev
 
-3)To monitor system health
+3)To monitor system health<br />
 
 vmstat 1000 > vmstat1.data
 filename= "/root/Desktop/Lab/vmstat.data"
